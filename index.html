@@ -1,0 +1,273 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAIO ENRIQUE, JOÃO MIGUEL E CRISTOPHER</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(#f5e6c8, #e0c097);
+      color: #3b2f2f;
+      scroll-behavior: smooth;
+    }header {
+  text-align: center;
+  padding: 20px;
+  background: #5c4033;
+  color: white;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: #3e2c23;
+  padding: 10px;
+  position: sticky;
+  top: 70px;
+  z-index: 999;
+}
+
+nav a {
+  color: #f5e6c8;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #e0c097;
+  color: #3b2f2f;
+}
+
+section {
+  padding: 20px;
+  margin: 15px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+  color: #5c4033;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: transform 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #5c4033;
+}
+
+  </style>
+</head>
+<body><header>
+  CAIO ENRIQUE, JOÃO MIGUEL E CRISTOPHER
+</header><nav>
+  <a href="#rivalidades">Rivalidades</a>
+  <a href="#imperios">Impérios</a>
+  <a href="#internacionais">Conflitos</a>
+  <a href="#nacionalismo">Nacionalismo</a>
+</nav><section id="rivalidades">
+  <h2>Rivalidades Europeias</h2>
+  <p>
+    Antes da Primeira Guerra Mundial, a Europa vivia um clima de tensão entre as grandes potências. Um dos principais conflitos foi entre França e Alemanha. Após a Guerra Franco-Prussiana (1870-1871), os franceses perderam a região da Alsácia-Lorena, rica em carvão, o que gerou grande revolta e desejo de revanche.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Alsace-Lorraine_map.svg/800px-Alsace-Lorraine_map.svg.png">
+</section><section id="imperios">
+  <h2>Conflitos nos Impérios</h2>
+  <p>
+    O Império Austro-Húngaro era formado por diversos povos diferentes, como tchecos, sérvios e croatas, que buscavam autonomia. Já a Rússia apoiava os povos eslavos, o que aumentava as tensões com o império austríaco.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Austria_Hungary_ethnic.svg/800px-Austria_Hungary_ethnic.svg.png">
+</section><section id="internacionais">
+  <h2>Rivalidades Internacionais</h2>
+  <p>
+    A Rússia e o Império Turco-Otomano também tinham conflitos históricos. Ambos controlavam territórios com diversos povos e culturas, o que gerava disputas e instabilidade.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/OttomanEmpireIn1683.png/800px-OttomanEmpireIn1683.png">
+</section><section id="nacionalismo">
+  <h2>O Nacionalismo</h2>
+  <p>
+    A partir de 1880, o nacionalismo cresceu muito na Europa. Muitos grupos passaram a exaltar seu país e acreditar que eram superiores aos outros. Ideias como o pangermanismo e o pan-eslavismo buscavam unir povos com base em cultura e língua.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Slavic_peoples_map.svg/800px-Slavic_peoples_map.svg.png">
+</section><footer>
+  Trabalho escolar de História
+</footer><script>
+  const sections = document.querySelectorAll("section");
+
+  window.addEventListener("scroll", () => {
+    sections.forEach(sec => {
+      const top = sec.getBoundingClientRect().top;
+      if(top < window.innerHeight - 100){
+        sec.classList.add("show");
+      }
+    });
+  });
+</script></body>
+</html><!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAIO ENRIQUE, JOÃO MIGUEL E CRISTOPHER</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(#f5e6c8, #e0c097);
+      color: #3b2f2f;
+      scroll-behavior: smooth;
+    }header {
+  text-align: center;
+  padding: 20px;
+  background: #5c4033;
+  color: white;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: #3e2c23;
+  padding: 10px;
+  position: sticky;
+  top: 70px;
+  z-index: 999;
+}
+
+nav a {
+  color: #f5e6c8;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #e0c097;
+  color: #3b2f2f;
+}
+
+section {
+  padding: 20px;
+  margin: 15px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+  color: #5c4033;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: transform 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #5c4033;
+}
+
+  </style>
+</head>
+<body><header>
+  CAIO ENRIQUE, JOÃO MIGUEL E CRISTOPHER
+</header><nav>
+  <a href="#rivalidades">Rivalidades</a>
+  <a href="#imperios">Impérios</a>
+  <a href="#internacionais">Conflitos</a>
+  <a href="#nacionalismo">Nacionalismo</a>
+</nav><section id="rivalidades">
+  <h2>Rivalidades Europeias</h2>
+  <p>
+    Antes da Primeira Guerra Mundial, a Europa vivia um clima de tensão entre as grandes potências. Um dos principais conflitos foi entre França e Alemanha. Após a Guerra Franco-Prussiana (1870-1871), os franceses perderam a região da Alsácia-Lorena, rica em carvão, o que gerou grande revolta e desejo de revanche.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Alsace-Lorraine_map.svg/800px-Alsace-Lorraine_map.svg.png">
+</section><section id="imperios">
+  <h2>Conflitos nos Impérios</h2>
+  <p>
+    O Império Austro-Húngaro era formado por diversos povos diferentes, como tchecos, sérvios e croatas, que buscavam autonomia. Já a Rússia apoiava os povos eslavos, o que aumentava as tensões com o império austríaco.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Austria_Hungary_ethnic.svg/800px-Austria_Hungary_ethnic.svg.png">
+</section><section id="internacionais">
+  <h2>Rivalidades Internacionais</h2>
+  <p>
+    A Rússia e o Império Turco-Otomano também tinham conflitos históricos. Ambos controlavam territórios com diversos povos e culturas, o que gerava disputas e instabilidade.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/OttomanEmpireIn1683.png/800px-OttomanEmpireIn1683.png">
+</section><section id="nacionalismo">
+  <h2>O Nacionalismo</h2>
+  <p>
+    A partir de 1880, o nacionalismo cresceu muito na Europa. Muitos grupos passaram a exaltar seu país e acreditar que eram superiores aos outros. Ideias como o pangermanismo e o pan-eslavismo buscavam unir povos com base em cultura e língua.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Slavic_peoples_map.svg/800px-Slavic_peoples_map.svg.png">
+</section><footer>
+  Trabalho escolar de História
+</footer><script>
+  const sections = document.querySelectorAll("section");
+
+  window.addEventListener("scroll", () => {
+    sections.forEach(sec => {
+      const top = sec.getBoundingClientRect().top;
+      if(top < window.innerHeight - 100){
+        sec.classList.add("show");
+      }
+    });
+  });
+</script></body>
+</html>
